@@ -2,40 +2,6 @@ body {
     margin: 0;
 }
 
-.header {
-    color: white;
-    padding: 5px;
-    margin: 0;
-    background: black;
-    height: 50vh;
-}
-
-.header h1 {
-    margin: 0;
-    display: inline;
-}
-
-.header h2 {
-    font-size: 75px;
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.header h3 {
-    font-size: 100px;
-    text-align: right;
-    margin-top: 100px;
-}
-
-.header nav {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px;
-}
-
 .header button {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
@@ -43,33 +9,4 @@ body {
 
 .header button i {
     font-size: 15px;
-}
-
-.header i {
-    font-size: 35px;
-    margin-right: 10px;
-    color: #06f9b7;
-}
-
-.header ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-}
-
-.header ul li a {
-    text-decoration: none;
-    color: white;
-}
-
-.header ul li {
-    margin-right: 20px;
-}
-
-.header ul li i {
-    color: white;
-}
-
-.right {
-    text-align: right;
 }
