@@ -10,66 +10,49 @@ body {
     height: 100vh;
 }
 
-.header h1 {
+
+body {
     margin: 0;
-    display: inline;
 }
 
-.header h2 {
-    font-size: 75px;
+.form {
     text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin: 20px;
 }
 
-.header h3 {
-    font-size: 100px;
-    text-align: right;
-    margin-top: 100px;
+.form button {
+    background-color: white;
+    color: black;
+    padding: 10px;
 }
 
-.header nav {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px;
-}
-
-.header button {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-}
-
-.header button i {
-    font-size: 15px;
-}
-
-.header i {
-    font-size: 35px;
-    margin-right: 10px;
+.form i {
     color: #06f9b7;
 }
 
-.header ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
+.form button i {
+    font-size: 15px;
 }
 
-.header ul li a {
+.form input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #06f9b7;
+    padding: 10px;
+}
+footer {
+    font-weight: bold;
+}
+
+footer a {
     text-decoration: none;
-    color: white;
+    color: #06f9b7;
 }
 
-.header ul li {
-    margin-right: 20px;
+footer i {
+    font-size: 25px;
 }
 
-.header ul li i {
-    color: white;
-}
-
-.right {
-    text-align: right;
-}
+footer i:hover {
+    color: #06f9b7;
