@@ -2,11 +2,29 @@ body {
     margin: 0;
 }
 
-.header button {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+.form {
+    text-align: center;
+    margin: 20px;
 }
 
-.header button i {
+.form button {
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.form i {
+    color: #06f9b7;
+}
+
+.form button i {
     font-size: 15px;
+}
+
+.form input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #06f9b7;
+    padding: 10px;
 }
